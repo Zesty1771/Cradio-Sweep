@@ -25,7 +25,7 @@
             bindings = <
       &kp Q           &kp W               &kp E             &kp R      &kp T      &kp Y              &kp U        &kp I            &kp O               &kp P
  &mt LGUI A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F      &kp G      &kp H  &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMI
-    &lt 4 Z           &kp X               &kp C             &kp V      &kp B      &kp N              &kp M    &kp COMMA          &kp DOT         &lt 5 SLASH
+      &kp Z           &kp X               &kp C             &kp V      &kp B      &kp N              &kp M    &kp COMMA          &kp DOT           &kp SLASH
                                                         &lt 1 TAB  &kp ENTER  &kp SPACE    &lt 2 BACKSPACE
             >;
         };
@@ -66,7 +66,7 @@
             >;
         };
 
-        Layer__5 {
+        Media {
             bindings = <
  &trans  &trans  &trans  &trans  &trans            &trans        &trans             &trans           &trans        &trans
  &trans  &trans  &trans  &trans  &trans            &trans    &kp C_PREV  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp C_NEXT
